@@ -9,19 +9,22 @@ Size: ~1000 rows
 Format: CSV
 
 ## 📌 Features:
-Column Name	Description
-Timestamp	Date and time (parsed into year, month, day...)
-Temperature	Indoor/Outdoor temperature
-Humidity	Humidity percentage
-SquareFootage	Area of the building
-Occupancy	Number of people in the building
-HVACUsage	On/Off status of HVAC system
-LightingUsage	Energy used for lighting
-RenewableEnergy	Energy contributed by renewables
-DayOfWeek	Day name (converted to 0–6)
-Holiday	Whether the day is a holiday
-EnergyConsumption	🔥 Target variable: total energy consumed
-🛠️ Tools & Libraries Used
+| Feature           | Description                                      |
+|-------------------|--------------------------------------------------|
+| `Timestamp`        | Date and time (later split into year, month, etc.) |
+| `Temperature`      | Indoor/Outdoor temperature                       |
+| `Humidity`         | Relative humidity                                |
+| `SquareFootage`    | Building area in square feet                     |
+| `Occupancy`        | Number of people in the building                 |
+| `HVACUsage`        | HVAC status (encoded: 0 = Off, 1 = On)          |
+| `LightingUsage`    | Energy used for lighting (numeric)              |
+| `RenewableEnergy`  | Energy supplied by renewable sources             |
+| `DayOfWeek`        | Day (encoded: 0 = Monday, ..., 6 = Sunday)      |
+| `Holiday`          | Holiday flag (`Yes`/`No`)                        |
+| `EnergyConsumption`| ✅ **Target variable**                           |
+
+
+## 🛠️ Tools & Libraries Used
 Python
 
 Pandas & NumPy for data preprocessing
