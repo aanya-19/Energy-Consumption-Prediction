@@ -1,14 +1,14 @@
-###🔋 Energy Consumption Prediction
+# 🔋 Energy Consumption Prediction
 This project aims to predict building energy consumption based on various environmental and operational features such as temperature, humidity, occupancy, and equipment usage.
 
-📁 Dataset
+## 📁 Dataset
 Source: Kaggle Dataset – Energy Consumption Prediction
 
 Size: ~1000 rows
 
 Format: CSV
 
-📌 Features:
+## 📌 Features:
 Column Name	Description
 Timestamp	Date and time (parsed into year, month, day...)
 Temperature	Indoor/Outdoor temperature
@@ -30,14 +30,14 @@ Seaborn & Matplotlib for visualization
 
 Scikit-learn for model building & evaluation
 
-📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 🔹 KDE Plots to visualize the distribution of energy consumption
 
 🔹 Correlation heatmaps to identify important features
 
 🔹 Grouped visualizations by DayOfWeek, Occupancy, SquareFootage to observe patterns
 
-🧠 Model Training
+## 🧠 Model Training
 Input: 9 features (excluding Timestamp)
 
 Target: EnergyConsumption
@@ -46,17 +46,8 @@ Model(s) tried:
 
 Linear Regression (R² ≈ 63%)
 
-(Optional) Random Forest, Ridge Regression, XGBoost, etc.
 
-Evaluation metrics:
-
-R² Score
-
-MAE (Mean Absolute Error)
-
-RMSE (Root Mean Squared Error)
-
-🔍 Key Insights
+## 🔍 Key Insights
 Energy consumption is highly influenced by:
 
 HVAC usage
@@ -64,8 +55,4 @@ HVAC usage
 Occupancy
 
 Square footage
-
-Holidays and day-of-week also show subtle variations
-
-Dataset size (1000 rows) limits model performance
 
