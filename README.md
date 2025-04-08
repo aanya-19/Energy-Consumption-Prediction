@@ -1,4 +1,4 @@
-🔋 Energy Consumption Prediction
+###🔋 Energy Consumption Prediction
 This project aims to predict building energy consumption based on various environmental and operational features such as temperature, humidity, occupancy, and equipment usage.
 
 📁 Dataset
