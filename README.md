@@ -27,7 +27,7 @@ Format: CSV
 ## 🛠️ Tools & Libraries Used
 Python
 
-Pandas & NumPy for data preprocessing
+Pandas for data preprocessing
 
 Seaborn & Matplotlib for visualization
 
